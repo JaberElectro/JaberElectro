@@ -48,4 +48,8 @@ Each project has its own repository with the circuit, the code, the design decis
 ## 📫 Get in touch
 
 Open to internships and graduate roles in embedded systems and electronics.
-<!-- Add your LinkedIn / email here -->
+
+<p>
+  <a href="https://www.linkedin.com/in/jaber-alluhayb-9b62a6370"><img src="https://img.shields.io/badge/LinkedIn-Jaber%20Alluhayb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:jaberalluhayb@gmail.com"><img src="https://img.shields.io/badge/Email-jaberalluhayb%40gmail.com-cf222e?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
