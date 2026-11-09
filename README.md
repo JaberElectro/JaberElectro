@@ -26,13 +26,13 @@ Each project has its own repository with the circuit, the code, the design decis
 
 | | Project | What it's really about |
 |:-:|---|---|
-| 🌡️ | **[GPU Thermal Management](https://github.com/USERNAME/GPU-Thermal-Management)** | Closed-loop fan control with a DHT11 and a MOSFET low-side switch, using hysteresis so the fans don't chatter around one threshold |
-| 🚦 | **[NE555 Traffic Light](https://github.com/USERNAME/NE555-Traffic-Light)** | Pure hardware timing with no microcontroller: RC math, duty-cycle limits, and why one 555 can't make three phases on its own |
-| 🔢 | **[74HC595 Sequential LED](https://github.com/USERNAME/74HC595-Sequential-LED)** | Serial-to-parallel conversion: data, clock and latch, and why the latch matters |
-| 🎚️ | **[Potentiometer Transistor Control](https://github.com/USERNAME/Potentiometer-Transistor-Control)** | Analog in, PWM out: ADC resolution, transistor drive, and the flyback diode a motor needs |
-| 📡 | **[IR Remote LED Control](https://github.com/USERNAME/IR-Remote-LED-Control)** | Decoding NEC infrared frames and mapping them to outputs |
-| 🗑️ | **[Smart Automatic Trash Bin](https://github.com/USERNAME/Smart-Automatic-Trash-Bin)** | Ultrasonic ranging, a servo-driven lid, and a small state machine tying them together |
-| ✈️ | **[Aircraft Detection Concept](https://github.com/USERNAME/Aircraft-Detection-Concept)** | An unfinished experiment, documented honestly: what simple sensors can and can't tell you |
+| 🌡️ | **[GPU Thermal Management](https://github.com/JaberElectro/GPU-Thermal-Management)** | Closed-loop fan control with a DHT11 and a MOSFET low-side switch, using hysteresis so the fans don't chatter around one threshold |
+| 🚦 | **[NE555 Traffic Light](https://github.com/JaberElectro/NE555-Traffic-Light)** | Pure hardware timing with no microcontroller: RC math, duty-cycle limits, and why one 555 can't make three phases on its own |
+| 🔢 | **[74HC595 Sequential LED](https://github.com/JaberElectro/74HC595-Sequential-LED)** | Serial-to-parallel conversion: data, clock and latch, and why the latch matters |
+| 🎚️ | **[Potentiometer Transistor Control](https://github.com/JaberElectro/Potentiometer-Transistor-Control)** | Analog in, PWM out: ADC resolution, transistor drive, and the flyback diode a motor needs |
+| 📡 | **[IR Remote LED Control](https://github.com/JaberElectro/IR-Remote-LED-Control)** | Decoding NEC infrared frames and mapping them to outputs |
+| 🗑️ | **[Smart Automatic Trash Bin](https://github.com/JaberElectro/Smart-Automatic-Trash-Bin)** | Ultrasonic ranging, a servo-driven lid, and a small state machine tying them together |
+| ✈️ | **[Aircraft Detection Concept](https://github.com/JaberElectro/Aircraft-Detection-Concept)** | An unfinished experiment, documented honestly: what simple sensors can and can't tell you |
 
 ## 🧭 How I approach a project
 
@@ -44,7 +44,6 @@ Each project has its own repository with the circuit, the code, the design decis
 
 - 🟢 Learning PCB design from scratch: schematic capture, footprints, layout and routing
 - 🟡 Turning these breadboard projects into proper schematics
-- 🔵 Next build: rebuilding a coffee grinder around an **ESP32-S3** with a built-in weighing system
 
 ## 📫 Get in touch
 
