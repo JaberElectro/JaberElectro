@@ -26,7 +26,7 @@ Each project has its own repository with the circuit, the code, the design decis
 
 | | Project | What it's really about |
 |:-:|---|---|
-| 🌡️ | **[GPU Thermal Management](https://github.com/JaberElectro/GPU-Thermal-Management)** | Closed-loop fan control with a DHT11 and a MOSFET low-side switch, using hysteresis so the fans don't chatter around one threshold |
+| 🌡️ | **[GPU Thermal Management](https://github.com/JaberElectro/GPU-Thermal-Management)** | Temperature-driven fan speed: a DHT11 feeds the Arduino, which sets fan speed with PWM through an IRF520 MOSFET |
 | 🚦 | **[NE555 Traffic Light](https://github.com/JaberElectro/NE555-Traffic-Light)** | Pure hardware timing with no microcontroller: RC math, duty-cycle limits, and why one 555 can't make three phases on its own |
 | 🔢 | **[74HC595 Sequential LED](https://github.com/JaberElectro/74HC595-Sequential-LED)** | Serial-to-parallel conversion: data, clock and latch, and why the latch matters |
 | 🎚️ | **[Potentiometer Transistor Control](https://github.com/JaberElectro/Potentiometer-Transistor-Control)** | Analog in, PWM out: ADC resolution, transistor drive, and the flyback diode a motor needs |
@@ -37,7 +37,7 @@ Each project has its own repository with the circuit, the code, the design decis
 ## 🧭 How I approach a project
 
 1. **Start from the signal.** Before writing code, I trace where the signal comes from, what converts it, and what it ends up driving.
-2. **Pick parts for a reason.** A MOSFET instead of a BJT, a 74HC595 instead of more GPIO, hysteresis instead of a single threshold: each one is a decision I can explain.
+2. **Pick parts for a reason.** A 74HC595 instead of more GPIO, PWM speed control instead of on/off fans, a flyback diode across every motor: each one is a decision I can explain.
 3. **Write down the limits.** Every README has a section on what the design can't do. Knowing that is part of the engineering.
 
 ## 📈 Currently
